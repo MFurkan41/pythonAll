@@ -1,0 +1,7 @@
+domain_info = {
+'zip_file':'{cwd}\\espemlakv10.zip',
+'sql_file':'{cwd}\\espemlakv10_veritabani.sql',
+'conf_file' :'{cwd}\\database_exp.php',
+'conf_number' : '2-2-4',
+'conf_name' :'database.php'
+}

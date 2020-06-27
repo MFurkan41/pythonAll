@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+{% if month %}
+<br><br>
+<h3>Kantin İşlemleri</h3><hr>
+<select class="form-control" onchange="location = this.value;">
+  <option value="solds">Lütfen Ay Seçiniz</option>
+  {% for ay in aylar %}
+  <option value="{{request1}}/{{ay}}">{{ay}}</option>
+  {% endfor %}
+</select>
+{% else %}
+<br><br>
+<h3>Kantin İşlemleri</h3><hr>
+<select class="form-control" onchange="location = this.value;">
+  <option value="solds">Lütfen Yıl Seçiniz</option>
+  {% for year in years %}
+  <option value="solds/{{year}}">{{year}}</option>
+  {% endfor %}
+</select>
+{% endif %}
+{% endblock body %}

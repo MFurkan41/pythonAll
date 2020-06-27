@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<form action="/create_graph/" method="post">
+<label for="graphname">Grafik İsmi</label>
+<input class="form-control" id="graphname" type="text" placeholder="Grafik İsmini Giriniz..."><br>
+<div class="form-row">
+    <div class="col">
+      <label for="graphnamex">X Kolon İsmi</label>
+      <input type="text" class="form-control" id="graphnamex" placeholder="">
+    </div>
+    <div class="col">
+      <label for="graphnamey">Y Kolon İsmi</label>
+      <input type="text" class="form-control" id="graphnamey" placeholder="">
+    </div>
+  </div><br>
+  <label for="data">Değer Sayısı</label>
+<select class="form-control" id = data name="datanumber" onchange="myFunc()">
+  {% for number in numbers %}
+  <option>{{number}}</option>
+  {% endfor %}
+</select>
+<table style="width:10%">
+  <tr>
+    <th>1</th>
+    <th>2</th> 
+    <th>3</th>
+  </tr>
+  <tr>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+  </tr>
+</table>
+</form>
+{% endblock body %}

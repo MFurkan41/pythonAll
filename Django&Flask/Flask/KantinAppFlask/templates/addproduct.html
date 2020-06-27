@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<br>
+<h3>Yeni Ürün Ekle</h3>
+<hr>
+<form action="/products/addproduct" method="POST">
+  <div class="form-group">
+    <label for="productname">Ürün İsmi</label>
+    <input type="text" class="form-control" id="productname" name="name" placeholder="Ürün İsmini Giriniz...">
+  </div>
+  <div class="form-group">
+    <label for="productprice">Ürün Fiyatı</label>
+    <input type="number" class="form-control" id="productprice" name="price" step="0.01" placeholder="Ürün Fiyatı Giriniz...">
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Ekle</button>
+  </div>
+</form>
+
+{% endblock body %}

@@ -1,0 +1,6 @@
+{
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.pythonPath": "C:\\Users\\furkan\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+}

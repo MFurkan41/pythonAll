@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body %}
+<br>
+<h3>Ürünler</h3>
+<br>
+<a href="/products/addproduct" class="btn btn-primary" role="button" aria-disabled="false">Ürün Ekle</a>
+<hr>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Ürün Adı</th>
+      <th scope="col">Ürün Fiyatı</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for product in products %}
+    <tr>
+        <th scope="row">{{product.id}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td><a href="/products/deleteproduct/{{product.id}}" class="btn btn-danger" role="button" aria-disabled="false">Sil</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock body %}
