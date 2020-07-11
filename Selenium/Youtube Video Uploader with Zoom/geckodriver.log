@@ -1,0 +1,35 @@
+1593545417746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\mfurk\\AppData\\Local\\Temp\\rust_mozprofile6qkIIS"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593545426342	Marionette	INFO	Listening on port 58808
+1593545426582	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\mfurk\\AppData\\Local\\Temp\\rust_mozprofile082iXU"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593545444148	Marionette	INFO	Listening on port 58870
+1593545444333	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+\\Users\\mfurk\\AppData\\Local\\Temp\\rust_mozprofilejDyUcJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593545523152	Marionette	INFO	Listening on port 58940
+1593545523349	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: /accounts/static/_/js/k=gaia.gaiafe_glif.tr.wckBmy9jZf4.O/am=8sUPGPLBCgAAeKgShAADTAAAAAAAAABAA4B4HPr8DxhEd62hg_w/d=1/ct=zgms/rs=ABkqax2ncN7z1evpui2h3HxIWHcxF4KmDA/m=glifb,identifier,unknownerror, line 588: NS_ERROR_NOT_INITIALIZED: 
+[Child 21008, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1593545535040	Marionette	INFO	Stopped listening on port 58940
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -44,7 +44,7 @@ elif islem == "Çarpma" or islem == "çarpma" or islem == "carpma":
 elif islem == "Bölme" or islem == "bölme" or islem == "bolme":
     kac1 = int(input("1. sayıyı yazınız:"))
     kac2 = int(input("2. sayıyı yazınız:"))
-    toplam = kac1 // kac2
+    toplam = kac1 / kac2
     print("Sonucunuz bulunuyor.")
     time.sleep(1)
     print("Sonucunuz bulunuyor..")
